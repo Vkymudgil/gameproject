@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
+*{
+  font-family: 'Dosis', sans-serif;
+}
+.header{
+  background-color: black;
+}
+.topheading{
+  color: red;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.gamesection{
+  background-color: black;
+}
+.sectionheading{
+  color: red;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.gamebox{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.left{
+  display: flex;
+  width: 400px;
+  height: 400px;
+  background-color: blue;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.left:hover{
+  transform: scale(1.2);
+  transition: all 0.5s ease-in-out;
+}
+.left:not(:hover){
+  transform: scale(1);
+  transition: all 0.5s ease-in-out;
+}
+.right{
+  width: 400px;
+  height: 400px;
+  background-color: red;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.right:hover{
+  transform: scale(1.2);
+  transition: all 0.5s ease-in-out;
+}
+.right:not(:hover){
+  transform: scale(1);
+  transition: all 0.5s ease-in-out;
+}
+.left > a, .right > a{
+  text-decoration: none;
+  color: white;
+}
+.ideasection{
+  background-color: white;
+}
+.formdiv{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
